@@ -1,0 +1,19 @@
+header {
+    background-color:#067eb2;
+}
+h1{
+    font-size: 1.2em;
+    color: white;
+}
+.form-control {
+    padding-left: 2.375rem;
+}
+.search-bar{
+    padding-top: 15px;
+}
+.btn-secondary{
+    background-color: white;
+}
+.fa-search{
+    color:black;
+}
