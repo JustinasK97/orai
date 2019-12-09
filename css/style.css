@@ -1,9 +1,11 @@
-header {
+header .container-fluid {
     background-color:#067eb2;
+    padding-top: 15px;
 }
 h1{
     font-size: 1.2em;
     color: white;
+    text-transform: uppercase;
 }
 .form-control {
     padding-left: 2.375rem;
@@ -16,4 +18,21 @@ h1{
 }
 .fa-search{
     color:black;
+}
+section:nth-child(1){
+	background: url("../img/Clouds.jpg");
+	background-size: cover;
+	height: 280px;
+}
+.day1{
+	display: inline-flex;
+	background-color: silver;
+	width: 400px;
+	height: 220px;
+}
+.day2{
+	display: inline-flex;
+	background-color: silver;
+	width: 200px;
+	height: 150px;
 }
