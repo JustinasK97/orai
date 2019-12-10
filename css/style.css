@@ -24,13 +24,11 @@ section:nth-child(1){
 	background-size: cover;
 	height: 280px;
 }
-.day1{
-	display: inline-flex;
-	background-color: silver;
-	width: 400px;
-	height: 220px;
+.antraste h2{
+    font-size: 2em;
+    color: white;
 }
-.day2{
+.days{
 	display: inline-flex;
 	background-color: silver;
 	width: 200px;
