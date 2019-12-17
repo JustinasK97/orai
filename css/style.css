@@ -1,36 +1,131 @@
-header .container-fluid {
-    background-color:#067eb2;
+.header .container-fluid{
+    background-color: #3477eb;
     padding-top: 15px;
+
+    
 }
-h1{
-    font-size: 1.2em;
-    color: white;
+
+
+button{
+    border-color: white;
+    background-color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 25px;
+ 
+}
+
+
+.header h1{
+    font-size: 2.3em;
+    color: #ffffff;
     text-transform: uppercase;
 }
-.form-control {
-    padding-left: 2.375rem;
+
+.main{
+    
+    background: #eee url("../img/Clouds.jpg");
+    background-size: cover;
+    height: 250px;
+    
 }
-.search-bar{
-    padding-top: 15px;
+
+.main h1{
+    font-size: 1.8em;
+    padding-top: 20px;
+    padding-left: 10px;
+    color: #ffffff;
+    
 }
-.btn-secondary{
-    background-color: white;
+
+
+
+.scroll{
+    overflow-x: scroll;
+    height: 400px;
+
+
+   
+    
 }
-.fa-search{
-    color:black;
+
+.hours{
+    
+    display: flex;
+    width: 170%;
+
 }
-section:nth-child(1){
-	background: url("../img/Clouds.jpg");
-	background-size: cover;
-	height: 280px;
+
+.hour{
+    border-top: 5px solid #fc8c03;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    background-color: #dedede;
+    height: 380px;
+    padding-left: 60px;
+  
 }
-.antraste h2{
-    font-size: 2em;
-    color: white;
+
+.temp{
+
+    padding-top: 20px;
+    padding-left: 10px;
 }
+
+.rain{
+
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.wind{
+
+    padding-top: 80px;
+}
+
+.weatherIcon{
+
+    padding-top: 50px;
+    padding-left: 10px;
+
+}
+
+.weatherIcon i{
+
+    font-size: 20px;
+}
+
+.humidityIcon{
+    color: #00a6ff;
+    padding-top: 40px;
+    padding-left: 8px;
+}
+
+.humidityIcon i{
+
+    font-size: 20px;
+}
+
+
+.main .blocks .weekDay1 i{
+    color: grey;
+    padding-left: 10px;
+
+}
+
+
+.laipsniai0 p{
+   
+    font-size: 0.8em;
+}
+
+.monday p {
+
+    font-size: 0.8em;
+}
+
 .days{
-	display: inline-flex;
-	background-color: silver;
-	width: 200px;
-	height: 150px;
+
+    display: flex;
+
 }
